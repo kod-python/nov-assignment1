@@ -18,6 +18,7 @@ body{
 .all{
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
     
     
     
@@ -31,6 +32,7 @@ body{
    align-items: center;
    width: 308px;
    border-radius: 0.2rem;
+   
 }
 
 .some h1{
