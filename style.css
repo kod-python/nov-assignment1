@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.all{
+    display: flex;
+    margin-top: 20px;
+    
+    
+    
+}
+
+/* some section */
+.some{
+   background-color: hsl(0, 0%, 100%); 
+  padding-left: 30px;
+   justify-content: center;
+   align-items: center;
+   width: 308px;
+   border-radius: 0.2rem;
+}
+
+.some h1{
+    color: hsl(212, 21%, 14%);
+    line-height: 1.8rem;
+}
+
+.some h2{
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+.some p{
+    color:hsl(228, 12%, 48%);
+    font-size: 1.2rem;
+    
+}
+
+/* some ends here */
+
+/* button */
+.cta{
+    padding: 12px;
+    width: 234px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 0.3rem;
+
+}
+
+.turn{
+    margin-left: 15px;
+    color: white;
+    font-size: 0.9rem;
+    
+}
+/* button ends here */
+
+/* image */
+.imi1{
+   width: 303px;
+   margin-left: -30px;
+   border-radius: 0.3rem;
+
+   
+   
+}
+
+/* image ends here */
+
+/* money starts here */
+.al{
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+.number{
+    font-size: 2rem;
+    color:hsl(158, 36%, 37%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.money{
+    display: flex;
+    
+    align-items: center;
+}
+
+/* money ends here */
+
+
+/* footer */
+footer span{
+    color: green;
+   
+    
+}
+
+footer p{
+    font-size: 0.1rem;
+    color: hsl(158, 36%, 37%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+/* footer ends here */
